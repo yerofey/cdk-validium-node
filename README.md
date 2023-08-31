@@ -67,7 +67,7 @@ make run
 
 - L2 RPC endpoint: `http://localhost:8123`
 - L2 Chain ID: 1001
-- L1 RPC endpoint: `http:localhost:8545`
+- L1 RPC endpoint: `http://localhost:8545`
 - L1 Chain ID: 1337
 - Pre funded account private key: `0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80`
 
@@ -76,7 +76,7 @@ make run
 Everything is run using docker, so if anything is not working, first thing is to identify what containers are running or not:
 
 ```
-docker compose ps
+docker ps
 ```
 
 Then check the logs:
